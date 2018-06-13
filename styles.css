@@ -1,15 +1,29 @@
 body {
   text-align: center;
+  
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400);
+
+
+
+h1  {
+  display: table;
+  margin: 0 auto;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 5em;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
 }
 
-h1 {
-  font-family: Monoton;
-  font-size: 70px;
-  margin: 0.2em;
-}
 
 h2 {
   margin: 1em 0 0.25em;
+  font-style: italic;
+  font-size: 2em;
+  color: #8519D2;
 }
 
 h2:first-of-type {
@@ -19,7 +33,7 @@ h2:first-of-type {
 table,
 tr,
 td {
-  border: 1px solid black;
+  border: 1px solid rgb(67, 10, 121);
 }
 
 table {
@@ -34,7 +48,28 @@ tr {
 td {
   width: 20px;
 }
-
+ 
+form {
+  color:rgb(67, 10, 121);
+  
+}
 input[type="number"] {
   width: 6em;
+  
+}
+input[type="submit"]{
+  padding: 2px;
+  margin: 5px;
+  background: #cc7ae6;
+  color: rgb(56, 13, 138);
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1em;
+  border: 2px dashed rgb(86, 7, 138);
+ width: 6em;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #2dc5f3, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  
+  font-weight: normal;
+
 }
