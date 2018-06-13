@@ -29,9 +29,9 @@ function makeGrid(height,width) {
   //let row = table.insertRow(0);
   //let cell = row.insertCell(0);
 
-  for (let i = 0; i <= height; i++){
+  for (let i = 0; i < height; i++){
     let row = table.insertRow(i); // for the rows
-    for (let k = 0; k <= width; k++){
+    for (let k = 0; k < width; k++){
       let cell = row.insertCell(k); // for the columns
       // added eventListeners to each cell
       cell.addEventListener('click', (e) => {
