@@ -4,6 +4,14 @@ let table = document.getElementById('pixelCanvas')
 let sizePicker = document.getElementById('sizePicker')
 
 
+height = document.getElementById(inputHeight);
+width = document.getElementById(inputWidth);
+
+
+sizePicker.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+};
 // Select size input
 
 
