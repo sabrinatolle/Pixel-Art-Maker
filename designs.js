@@ -3,8 +3,8 @@ let color = document.getElementById('colorPicker')
 let table = document.getElementById('pixelCanvas')
 let sizePicker = document.getElementById('sizePicker')
 
-let height = document.getElementById(inputHeight);
-let width = document.getElementById(inputWidth);
+let height = document.getElementById('inputHeight').value;
+let width = document.getElementById('inputWidth').value;
     makeGrid(height, width);
 
 
@@ -13,8 +13,8 @@ sizePicker.addEventListener('click', (e) => {
     e.preventDefault();
 
     
-    let height = document.getElementById(inputHeight).value;
-    let width = document.getElementById(inputWidth).value;
+    let height = document.getElementById('inputHeight').value;
+    let width = document.getElementById('inputWidth').value;
     table.firstElementChild.remove(); // deletes everytime we make new grid
    
     makeGrid(height, width);
